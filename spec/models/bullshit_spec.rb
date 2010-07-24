@@ -18,6 +18,13 @@ describe Bullshit do
     it "should load the list of known bullshits" do
       YAML.should_receive(:load_file).with("#{RAILS_ROOT}/db/bullshits.yml")
       Bullshit.is_bullshit?("foo")
-    end 
+    end
+    it "should not be case sensitive" do
+      Bullshit.is_bullshit?("SinERgIa").should be_true
+    end
+    
+    it "should ignore punctuation" do
+      Bullshit.is_bullshit?("sinergia,").should be_true
+    end  
   end
 end
