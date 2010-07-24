@@ -8,4 +8,213 @@ body {
   font: .625em helvetica, arial, sans-serif;
 }
 
+#page {
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  width: 960px;
+  font-size: 1.2em;
+}
 
+/*
+General
+*/
+
+p {
+	margin: 1.4em 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+img {
+	border: 0;
+}
+
+hr {
+	display: none;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+	color: #033649;
+	text-decoration: none;
+	border-bottom: 1px dotted #033649;
+}
+
+a:hover {
+	border-bottom: 1px solid #033649;
+}
+
+blockquote {
+  margin: 0 0 25px 0;
+  padding: 0 0 0 40px;
+  background: transparent url(../images/quote-left.gif) no-repeat 0 0;
+}
+
+blockquote p {
+	margin: 0;
+	padding: 0 25px 0 0;
+	background: transparent url(../images/quote-right.gif) no-repeat right bottom;
+}
+
+/*
+Header
+*/
+
+#header {
+  border-bottom: 1px dotted #26ADE4;
+}
+
+#header h1  {
+	font-size: 6em;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: -0.05em;
+	margin: .4em;	
+}
+#header h1 a {
+	border: none;
+}
+#header h1 a strong {
+	color: 	#D1E751;
+
+}
+
+/*
+Content
+*/
+
+#content {
+  margin: 0 20px;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+dl#horoscopo dt {
+	font-size: 1.4em;
+	width: 140px;
+	float: left;
+  background-color: #4DBCE9;
+	color: #fff;
+  text-shadow: none;
+  margin: 0 20px 0 0;
+	padding: 10px;
+	clear: left;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  text-align: center;    
+}
+
+dl#horoscopo dd {
+  display: inline;
+	float: left;
+	width: 680px;
+	border-bottom: 1px dotted #e9e9e9;
+	margin: 0 0 15px 0;
+}
+
+/*
+Forms
+*/
+
+form {
+  margin: 20px 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 20px;
+}
+
+form div {
+  padding: 0 0 5px 0;
+}
+
+form input {
+  font-size: 1.1em;
+  padding: 2px;
+  display: block;
+  width: 400px;
+}
+
+.error {
+  color: #900;
+}
+
+form p {
+  margin: -35px 0 0 440px;
+  padding: 8px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid #033649;
+  background-color: #036564;
+  color: #fff;
+  font-size: .9em;
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+form p em {
+  font-size: 1.2em;
+  display: block;
+}
+
+.info_label {
+  display: none;
+  text-shadow: none;
+}
+
+.button {
+  width: 200px;
+  text-align: center;
+  padding: 4px;
+  font-size: 1.1em;
+  background-color: #031634;
+  color: #fff;
+  border: none;
+  text-shadow: -1px -1px 0 #000;
+}
+
+/*
+Footer
+*/
+
+#footer {
+  clear: both;
+  font-size: .9em;
+  padding: 0 20px;
+  border-top: 1px dotted #26ADE4;
+	text-align: center;
+}
+
+#footer img {
+  vertical-align: middle;
+}
+
+/*
+Clearfix
+*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+.clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
