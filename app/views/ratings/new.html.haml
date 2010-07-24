@@ -1,13 +1,12 @@
 %h1 Avalie meu texto
 
 
-%form 
+%form{:action => "/ratings", :method => "post"} 
   %dl 
     %dt 
       %legend Texto
     %dd 
-      %textarea 
-
+      %textarea{:name => "text"} 
     %dt 
       %legend Submit
     %dd 

@@ -3,6 +3,7 @@ source :gemcutter
 gem "rails", "2.3.8"
 gem "haml" 
 gem "sqlite3-ruby"
+
 group :development do
   # bundler requires these gems in development
   # gem "rails-footnotes"
