@@ -64,3 +64,5 @@ prezados
 ferramenta
 paradigma
 area cliente
+diferencial competitividade
+
