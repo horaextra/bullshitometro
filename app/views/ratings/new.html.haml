@@ -1,16 +1,11 @@
 %h2 Avalie meu texto
 
-
 %form{:action => "/ratings", :method => "post"} 
-  %dl 
-    %dt 
-      %label Texto
-    %dd 
-      %textarea{:name => "text"} 
-    %dt 
-      %label Submit
-    %dd 
-      %input{:type => "submit"} 
+    
+  %label{:for => "text"}   
+  %textarea{:name => "text", :id => "text"} 
+  %label{:for => "submit"}  
+  %input{:type => "submit", :id => "submit", :value => "Checar bullshitagem"} 
 
 
 
