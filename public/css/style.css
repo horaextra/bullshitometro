@@ -30,6 +30,12 @@ p {
 	padding: 0;
 	line-height: 1.4em;
 }
+p#text {
+	padding: 20px;
+	text-align: justify;
+	background-color: #eee;
+	
+}
 
 img {
 	border: 0;

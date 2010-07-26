@@ -3,7 +3,8 @@ class RatingsController < ApplicationController
   end
   
   def create
-    @rate = Rating.rate(params[:text])
+    @text = params[:text]
+    @rate = Rating.rate(@text)
   end
 
 end

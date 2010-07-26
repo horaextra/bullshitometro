@@ -1,5 +1,10 @@
-%h2
-  = "Seu texto contem um teor de #{@rate} bullshits"
+%h2 Resultados da analise bullshistica
+%p#text  
+  = @text 
+
+
+%p
+  = "Seu texto contem um teor de <strong>#{@rate}</strong> bullshits"
   
 %p 
   = link_to "Verificar a bullshitagem de outro texto" , new_rating_path 
