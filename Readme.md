@@ -18,27 +18,31 @@ Mas como o grupo [#horaextra][he] é sinistro colocamos mais do que uma por dia.
 
 ## O time #HoraExtra
 
-* [Flávio Amieiro][fa] - [github][gfa]
-* [Bernardo Fontes][bf] - [github][gbf]
-* [Mario Mariani][mm] - [github][gmm]
-* [Vitor Pellegrino][vp] - [github][gvp]
+* [Álvaro Justen][aj] - [github][gaj]
 * [André Fonseca][af] - [github][gaf]
-* [Vinícius Teles][vt] - [github][gvt]
+* [Bernardo Fontes][bf] - [github][gbf]
+* [Diego Dukão][dk] - [github][gdk]
+* [Flávio Amieiro][fa] - [github][gfa]
+* [Henrique Bastos][hb] - [github][ghb]
+* [Israel Texeira][it] - [github][git]
 * [Marcos Tapajos][mt] - [github][gmt]
-* [Rodrigo Kumpera][rk] - [github][grk]
+* [Mario Mariani][mm] - [github][gmm]
 * [Rafael Tauil][rt] - [github][grt]
 * [Ramon Page][rp] - [github][grp]
+* [Rodrigo Kumpera][rk] - [github][grk]
 * [Rodrigo Pinto][rdp] - [github][grdp]
-* [Henrique Bastos][hb] - [github][ghb]
-* [Diego Dukão][dk] - [github][gdk]
-* [Israel Texeira][it] - [github][git]
 * [Thiago Freire][tf] - [github][gtf]
-* [Álvaro Justen][aj] - [github][gaj]
+* [Vinícius Teles][vt] - [github][gvt]
+* [Vitor Pellegrino][vp] - [github][gvp]
 
 ## Os colaboradores externos
 
 * [Celestino Gomes][cg] - [github][gcg]
 * [Rodrigo Yoshima][ry] - [github][gry]
+
+Faça um fork e participe destes projetos. Afinal de contas, "[small acts make great revolutions][sma]".
+
+[sma]: http://smallactsmanifesto.org/
 
 [fisl]: http://fisl.softwarelivre.org
 [he]: http://horaextra.org/
@@ -50,7 +54,7 @@ Mas como o grupo [#horaextra][he] é sinistro colocamos mais do que uma por dia.
 [do]: http://github.com/horaextra/desoroscopo
 [ba]: http://github.com/horaextra/banheiro
 [mt]: http://tapajos.me/
-[rt]: http://github.com/tauil
+[rt]: http://rafael.tauil.com.br/?utm_campaign=github
 [vt]: http://improveit.com.br/empresa/vinicius
 [fa]: http://flavioamieiro.com/
 [bf]: http://www.bernardofontes.net
@@ -61,7 +65,7 @@ Mas como o grupo [#horaextra][he] é sinistro colocamos mais do que uma por dia.
 [rp]: http://ramonpage.com/
 [hb]: http://henriquebastos.net/
 [rdp]: http://rodrigopinto.me/
-[dk]: http://www.diegodukao.net
+[dk]: http://diegodukao.net/?utm_campaign=github_he
 [it]: http://mudadeideia.com.br/
 [tf]: http://freireag.com
 [ry]: http://blog.aspercom.com.br/
